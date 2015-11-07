@@ -64,7 +64,7 @@ public class ScrollingImageView extends View {
         if (speed<0){
             bitmapLeft=clipBounds.width()-layerWidth-left;
         }
-        return bitmapLeft;
+        return bitmapLeft; 
     }
 
     @Override
